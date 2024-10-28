@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Widget</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Python Quiz</h1>
+        <form id="quizForm">
+            <div class="question">
+                <h2>1. Who developed Python Programming Language?</h2>
+                <label><input type="radio" name="q1" value="A"> A) Wick van Rossum</label><br>
+                <label><input type="radio" name="q1" value="B"> B) Rasmus Lerdorf</label><br>
+                <label><input type="radio" name="q1" value="C"> C) Guido van Rossum</label><br>
+                <label><input type="radio" name="q1" value="D"> D) Niene Stom</label>
+            </div>
+            <div class="question">
+                <h2>2. Which type of Programming does Python support?</h2>
+                <label><input type="radio" name="q2" value="A"> A) object-oriented programming</label><br>
+                <label><input type="radio" name="q2" value="B"> B) functional programming</label><br>
+                <label><input type="radio" name="q2" value="C"> C) procedural programming</label><br>
+                <label><input type="radio" name="q2" value="D"> D) All of the mentioned</label>
+            </div>
+            <div class="question">
+                <h2>3. Is Python case sensitive when dealing with identifiers?</h2>
+                <label><input type="radio" name="q3" value="A"> A) no</label><br>
+                <label><input type="radio" name="q3" value="B"> B) yes</label><br>
+                <label><input type="radio" name="q3" value="C"> C) machine dependent</label><br>
+                <label><input type="radio" name="q3" value="D"> D) none of the mentioned</label>
+            </div>
+            <div class="question">
+                <h2>4. Which of the following is the correct extension of the Python file?</h2>
+                <label><input type="radio" name="q4" value="A"> A) .python</label><br>
+                <label><input type="radio" name="q4" value="B"> B) .pl</label><br>
+                <label><input type="radio" name="q4" value="C"> C) .py</label><br>
+                <label><input type="radio" name="q4" value="D"> D) .p</label>
+            </div>
+            <div class="question">
+                <h2>5. Is Python code compiled or interpreted?</h2>
+                <label><input type="radio" name="q5" value="A"> A) Python code is both compiled and interpreted</label><br>
+                <label><input type="radio" name="q5" value="B"> B) Python code is neither compiled nor interpreted</label><br>
+                <label><input type="radio" name="q5" value="C"> C) Python code is only compiled</label><br>
+                <label><input type="radio" name="q5" value="D"> D) Python code is only interpreted</label>
+            </div>
+            <div class="question">
+                <h2>6. All keywords in Python are in _________</h2>
+                <label><input type="radio" name="q6" value="A"> A) Capitalized</label><br>
+                <label><input type="radio" name="q6" value="B"> B) lower case</label><br>
+                <label><input type="radio" name="q6" value="C"> C) UPPER CASE</label><br>
+                <label><input type="radio" name="q6" value="D"> D) None of the mentioned</label>
+            </div>
+            <div class="question">
+                <h2>7. What will be the value of the following Python expression? 4 + 3 % 5</h2>
+                <label><input type="radio" name="q7" value="A"> A) 7</label><br>
+                <label><input type="radio" name="q7" value="B"> B) 2</label><br>
+                <label><input type="radio" name="q7" value="C"> C) 4</label><br>
+                <label><input type="radio" name="q7" value="D"> D) 1</label>
+            </div>
+            <div class="question">
+                <h2>8. Which of the following is used to define a block of code in Python language?</h2>
+                <label><input type="radio" name="q8" value="A"> A) Indentation</label><br>
+                <label><input type="radio" name="q8" value="B"> B) Key</label><br>
+                <label><input type="radio" name="q8" value="C"> C) Brackets</label><br>
+                <label><input type="radio" name="q8" value="D"> D) All of the mentioned</label>
+            </div>
+            <div class="question">
+                <h2>9. Which keyword is used for function in Python language?</h2>
+                <label><input type="radio" name="q9" value="A"> A) Function</label><br>
+                <label><input type="radio" name="q9" value="B"> B) def</label><br>
+                <label><input type="radio" name="q9" value="C"> C) Fun</label><br>
+                <label><input type="radio" name="q9" value="D"> D) Define</label>
+            </div>
+            <div class="question">
+                <h2>10. Which of the following character is used to give single-line comments in Python?</h2>
+                <label><input type="radio" name="q10" value="A"> A) //</label><br>
+                <label><input type="radio" name="q10" value="B"> B) #</label><br>
+                <label><input type="radio" name="q10" value="C"> C) !</label><br>
+                <label><input type="radio" name="q10" value="D"> D) /*</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
